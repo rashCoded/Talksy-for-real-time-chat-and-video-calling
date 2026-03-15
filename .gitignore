@@ -30,6 +30,12 @@ next-env.d.ts
 backend/target/
 backend/uploads/
 backend/*.log
+backend/.env
+backend/.env.local
+backend/.env.production
+# DO NOT ignore application.properties (it no longer has secrets)
+# But do ignore any application-local.properties
+backend/src/main/resources/application-local.properties
 
 # IDE
 .idea/
